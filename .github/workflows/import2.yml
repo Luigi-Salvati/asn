@@ -1,6 +1,7 @@
 name: Import2 Scheduler
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0,30 8-22 * * *"
 
