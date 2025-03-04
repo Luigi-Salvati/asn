@@ -9,6 +9,7 @@ URLS = {
     "https://asn23.cineca.it/pubblico/miur/esito/13%252FA3/2/3": "A3 - Scienza delle finanze",
     "https://asn23.cineca.it/pubblico/miur/esito/13%252FA4/2/3": "A4 - Economia applicata",
     "https://asn23.cineca.it/pubblico/miur/esito/13%252FA5/2/3": "A5 - Econometria",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/3": "C1 - Storia economica",
 }
 
 RESULTS_FILE = "risultati.txt"

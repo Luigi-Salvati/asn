@@ -1,0 +1,39 @@
+name: Import2 Scheduler
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0,30 8-22 * * *"
+
+jobs:
+  run-import2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt || echo "No requirements.txt found, skipping dependencies installation."
+
+      - name: Run import2.py
+        run: python import2.py
+
+      - name: Commit Results
+        run: |
+          git config --local user.email "bot@example.com"
+          git config --local user.name "Import2 Bot"
+          git add risultati.txt
+          git diff --quiet && echo "No changes to commit" || git commit -m "Aggiornamento risultati"
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
