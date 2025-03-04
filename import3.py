@@ -39,7 +39,7 @@ def check_results():
         if "Non risultano presenti candidati" not in content:
             results.append(f"{sector}: Risultati pubblicati - {url}\n")
             print(f"{sector}: Risultati pubblicati")
-    
+    print(f"Il file risultati.txt sarà salvato in: {os.path.abspath(RESULTS_FILE)}")
     # Scrive i risultati nel file solo se ci sono risultati da scrivere
     if results:
         with open(RESULTS_FILE, "w", encoding="utf-8") as file:
