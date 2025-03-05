@@ -28,7 +28,7 @@ def get_page_content(url):
 
 def check_results():
     """Visita ogni URL e verifica se ci sono risultati pubblicati."""
-    results = [<font size="5">Risultati area 13</font><br><br>]
+    results = [f"<font size="5">Risultati area 13</font><br><br>"]
     
     for sector, url in URLS.items():
         content = get_page_content(url)
