@@ -37,7 +37,7 @@ def check_results():
         
         # Controlla se la frase "Non risultano presenti candidati" è nella pagina
         if "Non risultano presenti candidati" not in content:
-            results.append(f"{sector}: Risultati pubblicati - {url}\n")
+            results.append(f"{sector}: Risultati pubblicati - {url}<br>")
             print(f"{sector}: Risultati pubblicati")
     print(f"Il file README.md sarà salvato in: {os.path.abspath(RESULTS_FILE)}")
     # Scrive i risultati nel file solo se ci sono risultati da scrivere
