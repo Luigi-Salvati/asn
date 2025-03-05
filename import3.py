@@ -12,7 +12,7 @@ URLS = {
     "C1": "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/3",
 }
 
-RESULTS_FILE = "risultati.txt"
+RESULTS_FILE = "README.md"
 
 
 def get_page_content(url):
@@ -39,7 +39,7 @@ def check_results():
         if "Non risultano presenti candidati" not in content:
             results.append(f"{sector}: Risultati pubblicati - {url}\n")
             print(f"{sector}: Risultati pubblicati")
-    print(f"Il file risultati.txt sarà salvato in: {os.path.abspath(RESULTS_FILE)}")
+    print(f"Il file README.md sarà salvato in: {os.path.abspath(RESULTS_FILE)}")
     # Scrive i risultati nel file solo se ci sono risultati da scrivere
     if results:
         with open(RESULTS_FILE, "w", encoding="utf-8") as file:
