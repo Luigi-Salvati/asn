@@ -4,12 +4,12 @@ import os
 
 # Lista di URL da monitorare e relativi settori
 URLS = {
-    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA1/2/3": "A1 - Economia politica",
-    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/2/3": "A2 - Politica economica",
-    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA3/2/3": "A3 - Scienza delle finanze",
-    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA4/2/3": "A4 - Economia applicata",
-    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA5/2/3": "A5 - Econometria",
-    "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/3": "C1 - Storia economica",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA1/2/6": "A1 - Economia politica",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/2/6": "A2 - Politica economica",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA3/2/6": "A3 - Scienza delle finanze",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA4/2/6": "A4 - Economia applicata",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FA5/2/6": "A5 - Econometria",
+    "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/6": "C1 - Storia economica",
 }
 
 RESULTS_FILE = "risultati.txt"
