@@ -15,8 +15,7 @@ URLS = {
     "A3 - Fascia 2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA3/2/6",
     "A4 - Fascia 2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA4/2/6",
     "A5 - Fascia 2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA5/2/6",
-    "C1 - Fascia 2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/6",
-    "Test": "https://asn23.cineca.it/pubblico/miur/esito/05%252FA1/1/6"
+    "C1 - Fascia 2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/6"
 }
 
 RESULTS_FILE = "README.md"
