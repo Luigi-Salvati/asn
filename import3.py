@@ -4,12 +4,13 @@ import os
 
 # Dizionario con i settori scientifici disciplinari e i rispettivi URL
 URLS = {
-    "A1": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA1/2/3",
-    "A2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/2/3",
-    "A3": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA3/2/3",
-    "A4": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA4/2/3",
-    "A5": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA5/2/3",
-    "C1": "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/3",
+    "A1": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA1/2/6",
+    "A2": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/2/6",
+    "A3": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA3/2/6",
+    "A4": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA4/2/6",
+    "A5": "https://asn23.cineca.it/pubblico/miur/esito/13%252FA5/2/6",
+    "C1": "https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/6",
+    "Test": "https://asn23.cineca.it/pubblico/miur/esito/05%252FA1/1/6"
 }
 
 RESULTS_FILE = "README.md"
