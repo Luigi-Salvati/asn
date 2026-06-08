@@ -1,3 +1,3 @@
 # Risultati area 13
 
-A2 - Fascia 1: Risultati pubblicati - https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/1/6<br>A2 - Fascia 2: Risultati pubblicati - https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/2/6<br>
+A2 - Fascia 1: Risultati pubblicati - https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/1/6<br>C1 - Fascia 1: Risultati pubblicati - https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/1/6<br>A2 - Fascia 2: Risultati pubblicati - https://asn23.cineca.it/pubblico/miur/esito/13%252FA2/2/6<br>C1 - Fascia 2: Risultati pubblicati - https://asn23.cineca.it/pubblico/miur/esito/13%252FC1/2/6<br>
